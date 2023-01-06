@@ -2,17 +2,23 @@ body {
     background-color: hsl(216, 12%, 8%);
     font-size: 15px;
     font-weight: 400, 700;
+    text-align: center;
 }
 h1 {
-    color: White;
+    color: hsl(0, 0%, 100%);
     padding: 15px;
 }
 p {
-    color: grey;
+    color: hsl(217, 12%, 63%);
 }
-button {
-    color: whitesmoke;
-    background-color: orange;
+.assessment {
+    color: hsl(217, 12%, 63%);
+    display: inline;
+}
+.submit {
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(25, 97%, 53%);
+    
 }
 div {
     color: gray
