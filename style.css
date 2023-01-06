@@ -1,0 +1,19 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-weight: 400, 700;
+}
+h1 {
+    color: White;
+    padding: 15px;
+}
+p {
+    color: grey;
+}
+button {
+    color: whitesmoke;
+    background-color: orange;
+}
+div {
+    color: gray
+}
