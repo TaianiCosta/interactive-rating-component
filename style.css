@@ -1,25 +1,45 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+:root {
+    /* ----- Primary ----- */
+
+    --orange: hsl(25, 97%, 53%);
+
+    /* ----- Neutral ----- */
+
+    --white: hsl(0, 0%, 100%);
+    --lightgrey: hsl(217, 12%, 63%);
+    --mediumgrey: hsl(216, 12%, 54%);
+    --darkblue: hsl(213, 19%, 18%);
+    --verydarkblue: hsl(216, 12%, 8%);
+}
+
 body {
     background-color: hsl(216, 12%, 8%);
     font-size: 15px;
     font-weight: 400, 700;
     text-align: center;
+    font-family: 'Overpass';
 }
 h1 {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     padding: 15px;
 }
 p {
-    color: hsl(217, 12%, 63%);
+    color:var(--lightgrey);
 }
 .assessment {
-    color: hsl(217, 12%, 63%);
+    color: var(--lightgrey);
     display: inline;
 }
+.button1 {
+    border-radius: 50%;
+}
 .submit {
-    color: hsl(216, 12%, 54%);
-    background-color: hsl(25, 97%, 53%);
-    
+    color: var(--mediumgrey);
+    background-color: var(--orange);
+    border-radius: 25%;
 }
 div {
-    color: gray
+    color: var(--lightgrey);
 }
