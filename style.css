@@ -14,32 +14,63 @@
     --verydarkblue: hsl(216, 12%, 8%);
 }
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: var(--verydarkblue);
     font-size: 15px;
     font-weight: 400, 700;
     text-align: center;
     font-family: 'Overpass';
+    display: block;
 }
+
+main {
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    box-sizing: border-box;
+    padding: 100px 50px;
+    border-radius: 20px;
+}
+
 h1 {
     color: var(--white);
     padding: 15px;
 }
+
 p {
     color:var(--lightgrey);
 }
-.assessment {
-    color: var(--lightgrey);
-    display: inline;
+
+.main {
+    width: 940px;
+    margin: 0 auto;
 }
-.button1 {
-    border-radius: 50%;
-}
-.submit {
+
+button {
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
     color: var(--mediumgrey);
+    display: inline-block;
+    padding: 5px 10px;   
+    border-radius: 15px; 
+}
+
+button :hover {
+    background-color: var(--orange);   
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+input {
     background-color: var(--orange);
-    border-radius: 25%;
+    padding: 10px 50px;
+    border-radius: 20px;
 }
-div {
-    color: var(--lightgrey);
+
+input :hover {
+    background-color: var(--white);
+    color: var(--orange);
 }
+
