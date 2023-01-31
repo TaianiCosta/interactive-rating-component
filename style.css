@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Overpass);
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 :root {
     /* ----- Primary ----- */
@@ -14,59 +14,106 @@
     --verydarkblue: hsl(216, 12%, 8%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body {
     background-color: var(--verydarkblue);
     font-size: 15px;
     text-align: center;
     font-family: 'Overpass';
-    display: block;
 }
 
-main {
+.box {
     color: var(--lightgrey);
     background-color: var(--darkblue);
     border-radius: 20px;
     width: 300px;
     height: 310px;
-    padding: 30px 10px 5px 10px;
+    padding: 2em;
     margin: 100px 520px;
+    text-align: left;
+}
+
+.star {
+    background-color: hsl(215, 21%, 15%);
+    padding: 1em;
+    border-radius: 90px;
 }
 
 h1 {
     color: var(--white);
-    padding: 15px;
 }
 
 p {
     color:var(--lightgrey);
 }
 
-button {
+ul {
+    list-style-type: none;
     background-color: var(--darkblue);
     color: var(--mediumgrey);
-    display: inline-block;  
-    border-radius: 30px;
-    margin: 10px; 
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
 }
 
-button :hover {
+li {
+    background-color: hsl(215, 21%, 15%);
+    width: 20px;
+    height: 14px;
+    padding: 1em;
+    border-radius: 50px;
+    text-align: center;
+}
+
+ul :hover {
     background-color: var(--orange);
     cursor: pointer;
 }
 
 input {
     background-color: var(--orange);
-    padding: 10px 50px;
+    color: var(--white);
+    padding: 10px 100px;
     border-radius: 20px;
     cursor: pointer;
+    width: 300px;
+    font-family: 'Overpass';
+    border-style: none;
+    font-weight: bold;
 }
 
-input :hover {
+input:hover {
     background-color: var(--white);
     color: var(--orange);
-    
+}
+
+.classification {
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    border-radius: 20px;
+    width: 300px;
+    height: 310px;
+    padding: 3em;
+    margin: 100px 520px;
+}
+
+.selected {
+    background-color: hsl(215, 21%, 15%);
+    color: var(--orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 180px;
+    margin: 30px;
+}
+
+p2 {
+    padding-top: 5px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl (327, 88%, 50%); 
 }
 
